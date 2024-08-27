@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Manager</title>
+</head>
+
+<body>
+  <h1>Student Manager</h1>
+  <h2>All the Students: 0</h2>
+  <form id="studentForm">
+    <label for="studentName">Student Name:</label>
+    <input id="studentName" type="text" name="studentName" required>
+    
+    <label for="mobile">Mobile No:</label>
+    <input id="mobile" type="number" name="mobile" required>
+    
+    <label for="address">Address:</label>
+    <input id="address" type="text" name="address" required>
+
+    <button type="submit">Add</button>
+  </form>
+
+  <ul id="studentList"></ul>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"></script>
+  <script src="index.js"></script>
+  
+</body>
+
+</html>
